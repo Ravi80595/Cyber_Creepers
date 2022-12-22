@@ -8,7 +8,7 @@ import AdminLogin from '../Components/AdminLogin'
 export default function App({ Component, pageProps }) {
   return<>
   <ChakraProvider>
-  {/* <Navbar/> */}
+  <Navbar/>
   {/* <AdminSign/> */}
   {/* <AdminLogin/> */}
   {/* <Dashboard/> */}
