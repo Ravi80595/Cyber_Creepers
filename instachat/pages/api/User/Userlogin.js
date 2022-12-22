@@ -26,9 +26,10 @@ export default async function addText(req, res) {
           case 'POST':
             try{
                 let user = await UserModel.find({email,password})
+                let userdata =  await UserModel.find({email})
                 if(user.length>0){
                     const token = jwt.sign({"userID":user[0]._id},'ravi')
-                    res.status(201).json({success: true, tokens:token})
+                    res.status(201).json({success: true, tokens:token , userdata})
                 }
         }
             catch(err){
