@@ -5,6 +5,10 @@ import { Grid, GridItem } from "@chakra-ui/react";
 import { IoIosSettings } from 'react-icons/io';
 
 const Profile = () => {
+
+ let user = JSON.parse(localStorage.getItem('userdata'))
+
+ console.log(user);
   return (
     <div>
       <Box display={'flex'} justifyContent='space-between' margin='auto' height={'300px'} w ='50%'>
