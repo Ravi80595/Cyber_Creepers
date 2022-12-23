@@ -6,7 +6,7 @@ import {
   chakra, Box,
   Flex, useColorModeValue, VisuallyHidden, HStack,
   Button, useDisclosure, VStack, IconButton,
-  CloseButton, InputGroup, InputLeftElement, Input, Avatar, 
+  CloseButton, InputGroup, InputLeftElement, Input, Avatar,
   // mobileNav
 } from '@chakra-ui/react'
 
@@ -131,6 +131,14 @@ const Navbar = () => {
                     </Link>
                   </Button>
 
+                  <Button variant="ghost" leftIcon={<AiFillBell />} size="sm"
+
+                  >
+                    <Link legacyBehavior href="/Followers">
+                      <a>Followers</a>
+                    </Link>
+                  </Button>
+
 
                 </VStack>
               </Box>
@@ -141,8 +149,8 @@ const Navbar = () => {
                 alignItems="center"
               >
                 {/*......................................  */}
-                <Image src='/logo.jpg' alt="logo" width={60} height={60}/>
-            
+                <Image src='/logo.jpg' alt="logo" width={60} height={60} />
+
                 <VisuallyHidden>Choc</VisuallyHidden>
               </chakra.a>
 
@@ -182,6 +190,11 @@ const Navbar = () => {
                 <Button variant="ghost" leftIcon={<AiOutlinePlusSquare />} size="sm">
                   <Link legacyBehavior href="/Create">
                     <a>Create</a>
+                  </Link>
+                </Button>
+                <Button variant="ghost" leftIcon={<AiOutlinePlusSquare />} size="sm">
+                  <Link legacyBehavior href="/Followers">
+                    <a>Followers</a>
                   </Link>
                 </Button>
 
