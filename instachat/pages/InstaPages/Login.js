@@ -168,6 +168,7 @@ const Login = () => {
                   px={'40px'}
                   // pb={'6px'}
                 >
+                  
                   <Button
                     w={'100%'}
                     h={'28px'}
@@ -176,7 +177,10 @@ const Login = () => {
                     color={'white'}
                     onClick={handleSubmit}
                     border={'none'}
-                  >Log in</Button>
+                  ><Link legacyBehavior href="/Profile">
+                  <a >Login</a>
+                  </Link></Button>
+                  
                 </Box>
                 <Box
                   display={'flex'}

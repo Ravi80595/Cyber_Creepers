@@ -30,7 +30,7 @@ console.log(adminProfile)
 
 
   return (
-    <Flex w='100%'>
+    <Flex w='100%' marginTop="-70px">
 
                        {/*  Profile Section */}
       <Box className={styles.lhsBox} w={["5%","10%","16%"]} h='100vh' p={["0px","0px",'20px']}>
