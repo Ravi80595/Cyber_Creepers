@@ -41,11 +41,9 @@ We have given this a unique name as InstaChat .It has some basic functionalities
 
 ## Tech-Stack used :
 ### Frontend
-- HTML
-- CSS
-- JavaScript
 - React
 - Axios
+- Nextjs
 - chakra-Ui 
 
 ### Backend
