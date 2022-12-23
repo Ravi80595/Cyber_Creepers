@@ -151,7 +151,7 @@ const Navbar = () => {
                 {/*......................................  */}
                 <Image src='/logo.jpg' alt="logo" width={60} height={60} />
 
-                <VisuallyHidden>Choc</VisuallyHidden>
+                <VisuallyHidden></VisuallyHidden>
               </chakra.a>
 
               <HStack
@@ -198,6 +198,8 @@ const Navbar = () => {
                   </Link>
                 </Button>
 
+            
+
 
 
 
@@ -232,10 +234,19 @@ const Navbar = () => {
                   },
                 }}
               >
+
+
+                
                 <AiFillBell />
                 <VisuallyHidden>Notifications</VisuallyHidden>
 
               </chakra.a>
+
+              <Button variant="ghost" leftIcon={<AiOutlinePlusSquare />} size="sm">
+                  <Link legacyBehavior href="/InstaPages/Login">
+                    <a>Login</a>
+                  </Link>
+                </Button>
 
               <Avatar
                 size="sm"

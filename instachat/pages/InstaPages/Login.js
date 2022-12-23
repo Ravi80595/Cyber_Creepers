@@ -1,6 +1,8 @@
 import { Box, Button, Container, Flex, Heading, Image, Input, Text } from '@chakra-ui/react'
 import axios from "axios";
 import React, { useState } from 'react'
+import Link from 'next/link'
+
 
 const Login = () => {
 
@@ -208,15 +210,19 @@ const Login = () => {
                     fontSize={'13px'} 
                   >
                     Don't have an account? 
-                    <Text 
+                    <Button
                     cursor={'pointer'} 
                     fontWeight={'600'} 
                     fontSize={'13px'} 
                     color={'#47afff'} 
                     as={'span'}
+                    bg={"white"}
                     >
-                      Sign up
-                    </Text>
+                      <Link legacyBehavior href="/InstaPages/Signup" >
+                      <a>Sign Up</a>
+                      </Link>
+                      
+                    </Button>
                   </Text>
                 </Box>
               </form>
