@@ -156,7 +156,7 @@ const Navbar = () => {
 
                 <Button variant="ghost" leftIcon={<AiFillHome />} size="sm">
                   <Link legacyBehavior href="/">
-                    <a>Home</a>
+                    <a>Post</a>
                   </Link>
                 </Button>
 
@@ -185,10 +185,13 @@ const Navbar = () => {
                   </Link>
                 </Button>
 
+                <Button variant="ghost" leftIcon={<AiOutlinePlusSquare />} size="sm">
+                  <Link legacyBehavior href="/Post">
+                    <a>Post</a>
+                  </Link>
+                </Button>
 
-
-
-
+                
 
               </HStack>
             </HStack>

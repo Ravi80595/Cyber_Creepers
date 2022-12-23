@@ -15,8 +15,8 @@ export default function App({ Component, pageProps }) {
     {/* <AdminLogin/> */}
     {/* <Dashboard/> */}
     {/* <Home /> */}
-    <Post />
-    {/* <Component {...pageProps} /> */}
+    {/* <Post /> */}
+    <Component {...pageProps} />
    </ChakraProvider>
   </>
 }
