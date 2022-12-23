@@ -10,7 +10,7 @@ import Post from './Post'
 export default function App({ Component, pageProps }) {
   return <>
   <ChakraProvider>
-    <Navbar/>
+    {/* <Navbar/> */}
     {/* <AdminSign/> */}
     {/* <AdminLogin/> */}
     {/* <Dashboard/> */}

@@ -3,7 +3,6 @@ import {AiFillDelete} from 'react-icons/ai'
 import React, { useState,useEffect } from 'react'
 import { Flex,Button,Text,Table, Th, Thead, Tr,Tbody,Td,Image,Box,Spinner} from '@chakra-ui/react'
 
-
 const AllUsers = () => {
   const [users,setUsers]=useState([])
   const [loading,setLoading]=useState(false)
@@ -42,7 +41,7 @@ const AllUsers = () => {
                   <Th>Image</Th>
                   <Th>Name</Th>
                   <Th className='productRow'>Email</Th>
-                  <Th className='productRow'>Status</Th>
+                  <Th className='productRow'>Gender</Th>
                   <Th>Remove</Th>
                 </Tr>
               </Thead>
@@ -76,6 +75,7 @@ const AllUsers = () => {
                         <Text className='productRow' fontSize={20}>{ele.email}</Text>
                         </Td>
                         <Td className='productRow'>
+                          <Text>Male</Text>
                         </Td>
                         <Td>
                             <AiFillDelete  w="25px" h="25px" _hover={{color:"red",cursor:"pointer"}} />
