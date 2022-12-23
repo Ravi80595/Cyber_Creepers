@@ -25,7 +25,7 @@ const Messages = () => {
                 src="https://cdn-icons-png.flaticon.com/128/3135/3135789.png
                 "
                 />
-                <Text pl={5} fontSize="20px">Sachin</Text>
+                <Text pl={5} fontSize="20px">Sachin choudry</Text>
           </Flex>
           <Flex p={5} w='80%' m='auto'  _hover={{backgroundColor:"aqua"}}>
           <Avatar

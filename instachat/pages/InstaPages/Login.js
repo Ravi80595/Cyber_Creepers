@@ -177,7 +177,7 @@ const Login = () => {
                     color={'white'}
                     onClick={handleSubmit}
                     border={'none'}
-                  ><Link legacyBehavior href="/Profile">
+                  ><Link legacyBehavior href="/">
                   <a >Login</a>
                   </Link></Button>
                   
