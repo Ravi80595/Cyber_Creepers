@@ -6,7 +6,6 @@ Welcome! This Readme contains details about our project. We have built a website
 We have given this a unique name as InstaChat .It has some basic functionalities of instagram. InstaChat is like a social media platform where user can register themselves and share their posts and feeds with the other users who follow them and they can follow other users and also do messaging and also their is admin side added in the website.
 
 ## Deployment Link: 
-jobpanda.vercel.app/
 
 ## Pages and features 
 
