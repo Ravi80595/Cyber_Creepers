@@ -266,8 +266,8 @@ const Signup = () => {
                     as={'span'}
                     bg={"white"}
                     >
-                     <Link legacyBehavior href="/InstaPages/Signup" >
-                      <a>Sign Up</a>
+                     <Link legacyBehavior href="/InstaPages/Login" >
+                      <a >Login</a>
                       </Link>
 
                     </Button>

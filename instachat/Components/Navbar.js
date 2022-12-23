@@ -92,16 +92,16 @@ const Navbar = () => {
                     justifySelf="self-start"
                     onClick={mobileNav.onClose}
                   />
-                  <Button
+                  {/* <Button
                     w="full" variant="ghost" leftIcon={<AiFillHome />} >
                     <Link legacyBehavior href="/">
                       <a>Home</a>
                     </Link>
-                  </Button>
+                  </Button> */}
                   <Button
                     w="full" variant="ghost" leftIcon={<MdOutlineExplore />} >
-                    <Link legacyBehavior href="/Explore">
-                      <a>Explore</a>
+                    <Link legacyBehavior href="/Admin/Dashboard">
+                      <a>Admin</a>
                     </Link>
                   </Button>
                   <Button
@@ -162,15 +162,15 @@ const Navbar = () => {
                 }}
               >
 
-                <Button variant="ghost" leftIcon={<AiFillHome />} size="sm">
+                {/* <Button variant="ghost" leftIcon={<AiFillHome />} size="sm">
                   <Link legacyBehavior href="/">
                     <a>Post</a>
                   </Link>
-                </Button>
+                </Button> */}
 
                 <Button variant="ghost" leftIcon={<MdOutlineExplore />} size="sm">
-                  <Link legacyBehavior href="/Explore">
-                    <a>Explore</a>
+                  <Link legacyBehavior href="/Admin/AdminSign">
+                    <a>Admin</a>
                   </Link>
                 </Button>
 
@@ -202,7 +202,7 @@ const Navbar = () => {
 
                 <Button variant="ghost" leftIcon={<AiOutlinePlusSquare />} size="sm">
                   <Link legacyBehavior href="/Post">
-                    <a>Post</a>
+                    <a>Home</a>
                   </Link>
                 </Button>
 
@@ -251,11 +251,25 @@ const Navbar = () => {
                   </Link>
                 </Button>
 
+                <Link legacyBehavior href="/Profile" >
+                      <a >
+                      <Avatar
+                size="sm"
+                name=""
+                src="https://cdn-icons-png.flaticon.com/512/2202/2202112.png"
+                />
+                      </a>
+                      </Link>
+
+
+
+              {/* <Link>
               <Avatar
                 size="sm"
                 name=""
                 src=""
-              />
+                />
+                </Link> */}
             </HStack>
           </Flex>
         </chakra.header>

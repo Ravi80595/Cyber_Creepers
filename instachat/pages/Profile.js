@@ -6,12 +6,12 @@ import { IoIosSettings } from 'react-icons/io';
 
 const Profile = () => {
 
- let user = JSON.parse(localStorage.getItem('userdata'))
+//  let user = JSON.parse(localStorage.getItem('userdata'))
 
- console.log(user);
+//  console.log(user);
   return (
     <div>
-      <Box display={'flex'} justifyContent='space-between' margin='auto' height={'300px'} w ='50%'>
+      <Box pb="90px" pt="20px" display={'flex'} justifyContent='space-between' margin='auto' height={'300px'} w ='50%'>
       <Box w='35%'>
         <Avatar marginTop='20%' size='4xl'  src='https://bit.ly/dan-abramov'/>
       </Box>
@@ -56,7 +56,7 @@ const Profile = () => {
             </Tab>
           </TabList>
 
-          <TabPanels>
+          <TabPanels pt="10px">
             <TabPanel display={"flex"} gap="5">
               <Grid templateColumns="repeat(3, 1fr)" gap={6}>
                 <GridItem>
